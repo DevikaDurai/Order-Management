@@ -1,0 +1,37 @@
+Customer Creation
+
+http://localhost:8082/api/simplerOrder/createCustomer
+
+{
+    "customerName": "devi",
+    "customerPassword": "dev@407",
+    "customerEmail": "dev@gmail.com",
+    "customerMobile": "9090909000",
+    "customerType": "platinum"
+}
+
+Customer Authentication
+
+http://localhost:8082/api/simplerOrder/authenticateCustomer
+
+{
+    "customerName": "devi",
+    "customerPassword": "dev@407"
+}
+
+
+Order Creation 
+
+Add headers which is mentioned in screenshot
+
+http://localhost:8082/api/simplerOrder/createOrder
+
+{
+    "productName" : "bat",
+    "productPrice" : 100,
+    "discount" : 0
+}
+
+
+
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkZXZpIiwiZXhwIjoxNjAyODg0NDc0LCJpYXQiOjE2MDI4NDg0NzR9.WX2bp7ahfrDYYMrMJqybuwGyNHsh0kywvX0UJVq9jGg
